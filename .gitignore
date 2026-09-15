@@ -1,0 +1,14 @@
+tmp/
+.env
+.env.*
+!.env.example
+node_modules/
+auth-bootstrap.local.js
+server/.env
+server/*.local.json
+server/*.local.json.tmp
+release/
+server/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

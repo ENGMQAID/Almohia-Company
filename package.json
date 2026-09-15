@@ -1,0 +1,10 @@
+{
+  "name": "group-employee-platform",
+  "private": true,
+  "version": "0.3.0",
+  "engines": {"node": ">=24.14.0"},
+  "scripts": {
+    "start": "node --env-file-if-exists=server/.env server/main.mjs",
+    "test": "node --test tests/backend.test.mjs"
+  }
+}

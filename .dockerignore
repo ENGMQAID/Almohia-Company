@@ -1,0 +1,10 @@
+.git
+.env
+**/.env
+server/data
+server/*.local.json
+server/*.local.json.tmp
+auth-bootstrap.local.js
+tmp
+release
+node_modules
